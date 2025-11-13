@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormToko</class>
+ <widget class="QWidget" name="FormToko">
+  <property name="geometry"> <rect> <x>0</x> <y>0</y> <width>600</width> <height>500</height> </rect> </property>
+  <property name="windowTitle"> <string>Data Toko</string> </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry"> <rect> <x>50</x> <y>20</y> <width>450</width> <height>150</height> </rect> </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0"><widget class="QLabel" name="l1"><property name="text"><string>ID Toko</string></property></widget></item>
+    <item row="0" column="1"><widget class="QLineEdit" name="editID"/></item>
+    <item row="1" column="0"><widget class="QLabel" name="l2"><property name="text"><string>ID User</string></property></widget></item>
+    <item row="1" column="1"><widget class="QLineEdit" name="editIDUser"/></item>
+    <item row="2" column="0"><widget class="QLabel" name="l3"><property name="text"><string>Nama Toko</string></property></widget></item>
+    <item row="2" column="1"><widget class="QLineEdit" name="editNamaToko"/></item>
+    <item row="3" column="0"><widget class="QLabel" name="l4"><property name="text"><string>Alamat</string></property></widget></item>
+    <item row="3" column="1"><widget class="QLineEdit" name="editAlamat"/></item>
+    <item row="4" column="0"><widget class="QLabel" name="l5"><property name="text"><string>Status</string></property></widget></item>
+    <item row="4" column="1"><widget class="QLineEdit" name="editStatus"/></item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan"> <property name="geometry"> <rect> <x>60</x> <y>190</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Simpan</string> </property> </widget>
+  <widget class="QPushButton" name="btnHapus"> <property name="geometry"> <rect> <x>170</x> <y>190</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Hapus</string> </property> </widget>
+  <widget class="QPushButton" name="btnUbah"> <property name="geometry"> <rect> <x>280</x> <y>190</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Ubah</string> </property> </widget>
+  <widget class="QPushButton" name="btnBersih"> <property name="geometry"> <rect> <x>390</x> <y>190</y> <width>90</width> <height>29</height> </rect> </property> <property name="text"> <string>Bersih</string> </property> </widget>
+  <widget class="QTableWidget" name="tabelToko">
+   <property name="geometry"> <rect> <x>50</x> <y>240</y> <width>500</width> <height>230</height> </rect> </property>
+   <column><property name="text"><string>ID Toko</string></property></column>
+   <column><property name="text"><string>ID User</string></property></column>
+   <column><property name="text"><string>Nama Toko</string></property></column>
+   <column><property name="text"><string>Alamat</string></property></column>
+   <column><property name="text"><string>Status</string></property></column>
+  </widget>
+ </widget>
+ <resources/> <connections/>
+</ui>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistem Informasi Penjualan</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelTitle">
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string> APLIKASI E-COMMERCE PERIKANAN </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuData">
+    <property name="title">
+     <string>Menu Data</string>
+    </property>
+    <addaction name="actionToko"/>
+    <addaction name="actionProduk"/>
+    <addaction name="actionTransaksi"/>
+    <addaction name="actionKurir"/>
+   </widget>
+   <addaction name="menuData"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionUser">
+   <property name="text">
+    <string>Data User</string>
+   </property>
+  </action>
+  <action name="actionToko">
+   <property name="text">
+    <string>Data Toko</string>
+   </property>
+  </action>
+  <action name="actionProduk">
+   <property name="text">
+    <string>Data Produk</string>
+   </property>
+  </action>
+  <action name="actionTransaksi">
+   <property name="text">
+    <string>Data Transaksi</string>
+   </property>
+  </action>
+  <action name="actionKurir">
+   <property name="text">
+    <string>Data Kurir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
